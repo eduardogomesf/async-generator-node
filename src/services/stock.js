@@ -5,7 +5,7 @@ const PORT = 3000;
 async function handler(request, response) {
     if (
         request.method === 'GET' &&
-        request.url.includes('products')
+        request.url.includes('products/stock')
     ) {
         const { query: { productId } } = parse(request.url, true);
 
