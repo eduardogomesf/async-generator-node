@@ -15,7 +15,6 @@ Async generator is an example of how to use async generators to process data on 
  <br/>
 
 <h2>Installation</h2>
-<hr />
 
  If you use npm, then run:
 ```bash
@@ -30,7 +29,6 @@ yarn
 <br />
 
 <h2>Running the project</h2>
-<hr />
 
  First, it's necessary to run the http server, so run:
 ```bash
