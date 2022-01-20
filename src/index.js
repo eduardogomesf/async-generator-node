@@ -21,7 +21,7 @@ async function* getProductsWithStock() {
 
 async function main() {
     for await (const product of getProductsWithStock()) {
-        console.log(`${product.name}(${product.id}) processado com sucesso`);
+        console.log(`${product.name}(${product.id}) processed successfully`);
         console.log('---------------------------------------------------------------------------------------------');
     }
 }

@@ -5,7 +5,7 @@ const getProducts = async () => Array.from({ length: 1000 }, (_, index) => {
 
     return {
         id: randomUUID(),
-        name: `celular-${index}`,
+        name: `cellphone-${index}`,
         price: index ? index * basePrice : basePrice,
     }
 });
